@@ -1,0 +1,35 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 10%;
+  overflow-y: hidden;
+}
+
+@media (max-width: 800px) {
+   .swiper{
+      margin-left: 0;
+      padding: 0 10px;
+   }
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+ overflow: hidden;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.swiper-slide img,video {
+  display: block;
+  object-fit: cover;
+}
+
+
+

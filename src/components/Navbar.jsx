@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import navLinks from "../constant/index.js";
+import {navLinks} from "../constant/index.js";
 import { IoIosSearch } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 import { CiMenuFries } from "react-icons/ci";

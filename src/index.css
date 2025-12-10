@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   font-family: sans-serif;
   background-color: #f5f5f7;
@@ -31,4 +35,20 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 }
+.gradient-text{
+  background: linear-gradient(
+  to right,
+  #0A84FF,
+  #5E5CE6,
+  #AF52DE,
+  #FF375F,
+  #FF453A,
+  #FF9F0A
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+}
+
+
 
