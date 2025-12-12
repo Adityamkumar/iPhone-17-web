@@ -64,7 +64,7 @@ export const SLIDE_DATA = [
       containerClass: "mt-16 mb-8",
       imgClass: "w-[86%] h-[30%] mt-[38%] m-auto"
     },
-    textPosition: "top-10 text-center md:w-[20%] px-6",
+    textPosition: "top-10 text-center md:w-[22%] px-6",
     titleSize: "md:text-[1.6rem] text-[1.4rem]",
   },
   {

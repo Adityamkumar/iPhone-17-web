@@ -56,7 +56,7 @@ const SlideContent = ({ slide }) => {
 const Highlight = () => {
   return (
     <section 
-      className="md:mt-36 mt-20 min-h-screen overflow-x-hidden"
+      className="md:mt-36 mt-20 md:min-h-screen overflow-x-hidden"
       aria-labelledby="highlights-title"
     >
       <h3 
@@ -72,7 +72,7 @@ const Highlight = () => {
           slidesPerView={1.2}
           centeredSlides={false}
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: true,
           }}
           pagination={{

@@ -46,9 +46,25 @@ color: transparent;
   #FF9F0A
 );
 -webkit-background-clip: text;
+background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: bold;
 }
 
-
+.showcaseText {
+  background: linear-gradient(
+    90deg,
+    #b47cde 0%,
+    #8ba5e0 25%,
+    #6795d0 45%,
+    #5fa88c 60%,
+    #6baf5e 80%,
+    #6baf5e 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;   /* GSAP animates this */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
