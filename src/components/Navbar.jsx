@@ -85,7 +85,7 @@ const Navbar = () => {
       {(expandNav || showNav) && ( 
         <div
           ref={fullNav}
-          className="h-screen fixed left-0 z-9999 top-0 w-full bg-white"
+          className="h-full fixed left-0 z-9999 top-0 w-full bg-white"
         >
           <IoCloseOutline
             size={26}

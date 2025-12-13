@@ -49,7 +49,7 @@ const Hero = () => {
             {isPlaying ? <IoPauseSharp size={24} color="black"/> : <IoIosPlay size={24} color="black" />}
           </button>
         </div>
-        <div className="mt-6 md:mb-14 z-60 flex justify-around items-center rounded-4xl h-16 w-80 px-2  bg-[#F3F3F6]">
+        <div className="mt-6 md:mb-14 mb-6 z-60 flex justify-around items-center rounded-4xl h-16 w-80 px-2  bg-[#F3F3F6]">
           <div className="font-semibold">
             <span>
               From $799 <br /> or $33.29/mo. for 24 mo.*
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-b from-transparent to-white pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-52 bg-linear-to-b from-transparent to-white pointer-events-none"></div>
     </section>
   );
 };

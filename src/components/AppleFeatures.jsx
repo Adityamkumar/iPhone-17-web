@@ -4,7 +4,7 @@ const AppleFeatures = () => {
   
   return (
     <section className="relative flex items-center justify-center">
-      <div className="h-[700px] w-[95%] bg-white rounded-3xl md:flex md:flex-row flex flex-col-reverse md:items-center md:justify-between md:px-32  gap-10">
+      <div className="h-[700px] w-[95%] bg-white rounded-3xl md:flex md:flex-row flex flex-col-reverse md:items-center md:justify-between md:px-32 gap-10">
         <div className="mb-16 md:flex md:flex-col flex flex-row overflow-x-scroll gap-4 px-8 md:items-start  items-center md:mt-32 mt-8">
           <div className="flex items-center gap-3 px-3 md:h-10 md:w-36 h-7 w-42  rounded-4xl py-6 bg-[#EEEEF2]">
             <div className="h-8 w-8 rounded-full bg-[#DF885C]"></div>

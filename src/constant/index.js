@@ -1,3 +1,4 @@
+import { Camera, Users, Video, Zap } from "lucide-react";
 
 export const navLinks = [
   { label: "Store" },
@@ -82,8 +83,48 @@ export const SLIDE_DATA = [
   },
 ];
 
+export const features = [
+    {
+      icon: Camera,
+      title: "Centre Stage",
+      subtitle: "video",
+      media: "/video/camera_video_1.mp4",
+      type: "video",
+      description:
+        "An all-new square sensor enables zoom and rotate options, for more flexible ways to frame selfies and videos. And it gets everyone in a group shot — automatically.",
+    },
+    {
+      icon: Video,
+      title: "Dual Capture",
+      subtitle: "video",
+      media: "/video/camera_video_2.mp4",
+      type: "video",
+      description:
+        "Record yourself and the world around you with simultaneous front and rear video capture.",
+    },
+    {
+      icon: Zap,
+      title: "Ultra-stabilised",
+      subtitle: "video",
+      media: "/video/camera_video_3.mp4",
+      type: "video",
+      description:
+        "Capture stunningly smooth 4K 60 fps video in Dolby Vision, even when you’re in action.",
+    },
+    {
+      icon: Users,
+      title: "Centre Stage",
+      subtitle: "for video calls",
+      media: "/img/camera_img.jpg",
+      type: "image",
+      description:
+        "Artificial intelligence automatically adjusts the frame, so you’re front and centre for virtual meetings and FaceTime calls.6",
+    },
+  ];
+
 
 export default {
   navLinks,
   SLIDE_DATA,
+  features
 };

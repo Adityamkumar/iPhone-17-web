@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
 import MobileShowCase from "./components/MobileShowCase";
 import AppleFeatures from "./components/AppleFeatures";
+import Camera from "./components/Camera";
+import CameraFeatures from "./components/CameraFeatures";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <Highlight />
       <MobileShowCase />
       <AppleFeatures />
+      <Camera />
+      <CameraFeatures />
     </main>
   );
 };
