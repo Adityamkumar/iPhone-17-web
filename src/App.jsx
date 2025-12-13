@@ -6,6 +6,8 @@ import MobileShowCase from "./components/MobileShowCase";
 import AppleFeatures from "./components/AppleFeatures";
 import Camera from "./components/Camera";
 import CameraFeatures from "./components/CameraFeatures";
+import CameraResolution from "./components/CameraResolution";
+import Slider from "./components/Slider";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <AppleFeatures />
       <Camera />
       <CameraFeatures />
+      <CameraResolution />
+      <Slider />
     </main>
   );
 };

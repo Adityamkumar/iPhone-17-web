@@ -123,8 +123,42 @@ export const features = [
   ];
 
 
+export const snapSlideData = [
+   {
+      id: 1,
+      img: '/img/snap_img1.jpg',
+      text: '2x Telephoto. Close in or zoom out on your subjects with exceptional detail.'
+   },
+   {
+      id: 2,
+      img: '/img/snap_img2.jpg',
+      text: 'Clean Up. Remove unwanted objects, people and background distractions from your photos.'
+   },
+   {
+      id: 3,
+      img: '/img/snap_img3.jpg',
+      text: 'Low-light and Night mode photography. Capture sharper, more detailed and brighter images with natural colours and reduced noise, even when it’s dark.'
+   },
+   {
+      id: 4,
+      img: '/img/snap_img4.jpg',
+      text: 'Latest‑generation Photographic Styles. Choose from different preset styles, including the new Bright option, to customise the tone, colour and look of your photos.'
+   },
+   {
+      id: 5,
+      img: '/img/snap_img5.jpg',
+      text: 'Macro. Take compelling close-ups and capture sharp details with incredible clarity.'
+   },
+   {
+      id: 6,
+      img: '/img/snap_img6.jpg',
+      text: 'Pro-level videos. Record up to 4K 60 fps videos or enable Cinematic mode for theatre-quality results. And Audio Mix lets you adjust the way voices sound in your videos.'
+   }
+]
+
 export default {
   navLinks,
   SLIDE_DATA,
-  features
+  features,
+  snapSlideData
 };

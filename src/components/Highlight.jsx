@@ -56,7 +56,7 @@ const SlideContent = ({ slide }) => {
 const Highlight = () => {
   return (
     <section 
-      className="md:mt-36 mt-20 md:min-h-screen overflow-x-hidden"
+      className="md:mt-36 mt-20 md:max-h-screen overflow-x-hidden"
       aria-labelledby="highlights-title"
     >
       <h3 
