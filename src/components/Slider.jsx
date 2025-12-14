@@ -3,11 +3,11 @@ import { snapSlideData } from "../constant";
 
 const Slider = () => {
   return (
-    <section className="min-h-screen max-w-full md:mt-16 mt-12">
+    <section className="md:min-h-screen max-w-full md:mt-16 mt-12">
       <h3 className="md:ml-52 ml-6 md:pt-32 md:text-3xl text-2xl tracking-tighter font-semibold">
         Smile. Snap. Share. Repeat.
       </h3>
-      <div className="max-w-full min-h-[80vh] md:mt-12 mt-6 overflow-x-scroll scroll-smooth">
+      <div className="max-w-full md:min-h-[80vh] sm:min-h-[60vh] md:mt-12 mt-6 overflow-x-scroll scroll-smooth">
         <div className="flex md:gap-8 gap-2  md:ml-48 ml-6">
           {snapSlideData.map(({id,img,text}) => (
             <div key={id} className="flex flex-col items-start">

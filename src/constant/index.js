@@ -156,9 +156,44 @@ export const snapSlideData = [
    }
 ]
 
+export const iphoneData = {
+  "iPhone 13": {
+    cpu: "50% faster",
+    gpu: "2.1x faster",
+    battery: "11 more hours",
+  },
+  "iPhone 13 mini": {
+    cpu: "50% faster",
+    gpu: "2.1x faster",
+    battery: "13 more hours",
+  },
+  "iPhone 14": {
+    cpu: "50% faster",
+    gpu: "90% faster",
+    battery: "10 more hours",
+  },
+  "iPhone 14 Plus": {
+    cpu: "50% faster",
+    gpu: "90% faster",
+    battery: "4 more hours",
+  },
+  "iPhone 15": {
+    cpu: "40% faster",
+    gpu: "80% faster",
+    battery: "10 more hours",
+  },
+  "iPhone 15 plus": {
+    cpu: "40% faster",
+    gpu: "80% faster",
+    battery: "4 more hours",
+  }
+};
+
+
 export default {
   navLinks,
   SLIDE_DATA,
   features,
-  snapSlideData
+  snapSlideData,
+  iphoneData
 };

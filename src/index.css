@@ -83,6 +83,19 @@ body {
   background-clip: text;
 }
 
+.energy{
+  background: linear-gradient(
+  90deg,
+  #9E7BC8 45%,
+  #7E87C8 50%,
+  #6fa35c 65%
+);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
