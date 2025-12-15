@@ -4,7 +4,7 @@ import { snapSlideData } from "../constant";
 const Slider = () => {
   return (
     <section classNsame="md:min-h-[50vh] max-w-full md:mt-16 mt-12">
-      <h3 className="lg:ml-52 md:ml-10 ml-6 md:pt-32 md:text-3xl text-2xl tracking-tighter font-semibold">
+      <h3 className="lg:ml-52 md:ml-10 ml-6 md:pt-32 pt-10 md:text-3xl text-2xl tracking-tighter font-semibold">
         Smile. Snap. Share. Repeat.
       </h3>
       <div className="max-w-full md:min-h-[45vh] sm:min-h-[60vh] md:mt-12 mt-6 overflow-x-scroll scroll-smooth">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Lead = () => {
   return (
-    <section className="md:min-h-[65vh] md:mt-12">
+    <section className="md:min-h-[30vh] md:mt-12">
       <h2 className="lg:ml-54 md:ml-10 ml-7 md:text-5xl text-2xl  font-semibold md:font-bold tracking-tighter md:pt-6 pt-4">
         Our values lead the way.
       </h2>

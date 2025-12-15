@@ -16,6 +16,7 @@ import AppleSlide from "./components/AppleSlide";
 import HelpFeatures from "./components/HelpFeatures";
 import Accessories from "./components/Accessories";
 import Lead from "./components/Lead";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <HelpFeatures />
       <Accessories />
       <Lead />
+      <Footer />
     </main>
   );
 };
