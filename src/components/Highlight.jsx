@@ -61,7 +61,7 @@ const Highlight = () => {
     >
       <h3 
         id="highlights-title"
-        className="md:px-34 px-8 text-[#1D1D1F] md:text-6xl text-3xl font-semibold"
+        className="lg:px-34 md:px-20 px-8 text-[#1D1D1F] md:text-6xl text-3xl font-semibold"
       >
         Get the highlights.
       </h3>

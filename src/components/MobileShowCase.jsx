@@ -52,19 +52,19 @@ const MobileShowCase = () => {
 
 
   return (
-    <section ref={sectionRef} className="md:min-h-[60vh] md:mt-36 mt-12">
-      <div className="flex flex-col md:gap-10 gap-4 md:ml-32 py-10 px-4">
+    <section ref={sectionRef} className="md:min-h-[60vh] md:mt-36  mt-12">
+      <div className="max-w-full flex flex-col md:gap-10 gap-4 md:ml-12 py-10 px-4">
         <h4 className="text-3xl font-semibold">Design</h4>
         <h2
           ref={textRef}
-          className="showcaseText md:text-7xl text-3xl font-bold"
+          className="showcaseText lg:text-7xl  md:text-5xl text-3xl font-bold"
         >
           <span>Even more delightful.</span>
           <br />
           <span>Even more durable.</span>
         </h2>
 
-        <p className="md:text-xl text-sm text-[#7d7d7d] font-semibold md:w-[62%]">
+        <p className="md:text-xl text-sm text-[#7d7d7d] font-semibold lg:w-[600px] max-w-fit">
           Meet the new iPhone 17. Designed with contoured edges, thinner borders
           and durable materials like Ceramic Shield 2 on the front, it{" "}
           <span className="text-black">looks — and stays — beautiful</span>. You

@@ -3,12 +3,12 @@ import { appleSlideData } from '../constant'
 
 const AppleSlide = () => {
   return (
-    <section className="md:min-h-[65vh] h-full max-w-full md:mt-12 mt-6">
-          <h3 className="md:ml-52 ml-6 md:pt-20 md:text-[26px] text-xl tracking-tighter font-semibold">
+    <section className="md:h-[63vh] h-full max-w-full md:mt-12 mt-6">
+          <h3 className="lg:ml-52 md:ml-10 ml-6 md:pt-20 md:text-[26px] text-xl tracking-tighter font-semibold">
             Apple Intelligence.<br/>Effortlessly helpful every day.
           </h3>
           <div className="max-w-full md:min-h-[80vh] sm:min-h-[60vh] md:mt-7 mt-6 overflow-x-auto scroll-smooth">
-            <div className="flex md:gap-8 gap-6  md:ml-48 ml-6">
+            <div className="flex md:gap-8 gap-6  lg:ml-48 md:ml-8 ml-6">
               {appleSlideData.map(({id,img,text}) => (
                 <div key={id} className="flex flex-col items-start">
                    <img className="md:max-w-2xl max-w-[330px] md:h-[300px] h-[250px] rounded-3xl" src={img} alt="image" />

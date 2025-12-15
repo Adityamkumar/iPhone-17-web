@@ -32,7 +32,7 @@ export const SLIDE_DATA = [
       type: "video", 
       src: "/video/video_3.mp4"
     },
-    textPosition: "md:top-8 top-2 text-center md:w-[48%] px-6",
+    textPosition: "md:top-8 top-2 text-center md:w-[60%] px-6",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ export const SLIDE_DATA = [
       containerClass: "absolute bottom-0",
       imgClass: "md:h-[50%] md:w-[40%] h-[50%] w-[60%] md:ml-[10%] m-auto"
     },
-    textPosition: "md:top-10 md:right-4 top-4 text-center md:w-[32%] px-2",
+    textPosition: "md:top-10 md:right-4  top-4 text-center md:w-[30%] max-w-full px-2",
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ export const SLIDE_DATA = [
       containerClass: "mt-16 mb-8",
       imgClass: "w-[86%] h-[30%] mt-[38%] m-auto"
     },
-    textPosition: "top-10 text-center md:w-[22%] px-6",
+    textPosition: "top-10 text-center md:w-[40%] px-6",
     titleSize: "md:text-[1.6rem] text-[1.4rem]",
   },
   {

@@ -15,6 +15,7 @@ import IosSlider from "./components/IosSlider";
 import AppleSlide from "./components/AppleSlide";
 import HelpFeatures from "./components/HelpFeatures";
 import Accessories from "./components/Accessories";
+import Lead from "./components/Lead";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
       <AppleSlide />
       <HelpFeatures />
       <Accessories />
+      <Lead />
     </main>
   );
 };
