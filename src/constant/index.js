@@ -189,11 +189,68 @@ export const iphoneData = {
   }
 };
 
+export const iosSliderData = [
+  {
+    id: 1,
+    img:'/img/ios_img1.jpg',
+    text:'Liquid Glass. The new iOS design reflects and refracts what’s beneath it in real time, dynamically adapting to your content across apps and devices.'
+  },
+  {
+    id: 2,
+    img:'/img/ios_img2.jpg',
+    text:'A more vibrant Lock Screen. The time dynamically adapts to your photo wallpaper and notifications, keeping your subject in view. When you move your iPhone, your photo comes to life with a new 3D effect.15'
+  },
+  {
+    id: 3,
+    img:'/img/ios_img3.jpg',
+    text:'Call Screening. Automatically answers unknown callers. Once they share their name and reason for calling, your phone rings and you decide if you want to pick up.16'
+  },
+  {
+    id: 4,
+    img:'/img/ios_img4.jpg',
+    text:'Hold Assist. Keeps your spot in line while you wait for a live agent and notifies you when they’re ready.17'
+  },
+  {
+    id: 5,
+    img:'/img/ios_img5.jpg',
+    text:'Polls in Messages. Create a poll and let everyone in the conversation contribute and watch as the votes come in.'
+  }
+]
+
+export const appleSlideData = [
+  {
+    id: 1,
+    img: '/img/apple_img1.jpg',
+    text: 'Visual intelligence. Search, ask questions and take action with the content on your iPhone screen.'
+  },
+  {
+    id: 2,
+    img: '/img/apple_img2.jpg',
+    text: 'Live Translation. Automatically translate texts in Messages,18 and get live translated captions in FaceTime and spoken translations in the Phone app.'
+  },
+  {
+    id: 3,
+    img: '/img/apple_img3.jpg',
+    text: 'Clean Up. Remove unwanted distractions with a tap. It’s a photo editing tool that stays true to the original intent of the photo.'
+  },
+  {
+    id: 4,
+    img: '/img/apple_img4.jpg',
+    text: 'Genmoji. Make a Genmoji right in the keyboard to match any conversation. Want to create a sloth with a light bulb? You got it. Just provide a description.'
+  },
+  {
+    id: 5,
+    img: '/img/apple_img5.jpg',
+    text: 'Writing Tools. Proofread your text and rewrite different versions until the tone and wording are just right, and summarise selected text with a tap.'
+  },
+]
 
 export default {
   navLinks,
   SLIDE_DATA,
   features,
   snapSlideData,
-  iphoneData
+  iphoneData,
+  iosSliderData,
+  appleSlideData
 };

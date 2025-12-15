@@ -2,7 +2,7 @@ import React from "react";
 
 const CameraResolution = () => {
   return (
-    <section className="md:min-h-screen w-full mt-16">
+    <section className="md:min-h-[60vh] w-full mt-16">
       <h3 className="camera-text text-center font-bold md:text-5xl text-2xl md:py-14 py-8 md:leading-14 md:max-w-[650px] m-auto">
         All 48MP rear cameras.
         <br /> An evolution in resolution.

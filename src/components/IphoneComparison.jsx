@@ -5,7 +5,7 @@ const IphoneComparison = () => {
   const data = iphoneData[selectedIphone];
 
   return (
-    <section className="md:min-h-[80vh] min-h-screen max-w-full mt-16 ">
+    <section className="md:min-h-[56vh] min-h-[65vh] max-w-full mt-16 ">
       <div className="md:min-h-[45vh] min-h-[65vh] px-10 md:w-6xl w-full bg-gray-200 rounded-2xl md:pt-16 pt-6 m-auto">
         <div className="md:flex md:flex-col">
           <div className="md:flex md:flex-row md:items-center md:ml-24 flex flex-col gap-6">

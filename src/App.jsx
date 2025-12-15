@@ -7,9 +7,14 @@ import AppleFeatures from "./components/AppleFeatures";
 import Camera from "./components/Camera";
 import CameraFeatures from "./components/CameraFeatures";
 import CameraResolution from "./components/CameraResolution";
-import Slider from "./components/Slider";
 import Energy from "./components/Energy";
 import IphoneComparison from "./components/IphoneComparison";
+import IphoneTech from "./components/IphoneTech";
+import Slider from "./components/Slider";
+import IosSlider from "./components/IosSlider";
+import AppleSlide from "./components/AppleSlide";
+import HelpFeatures from "./components/HelpFeatures";
+import Accessories from "./components/Accessories";
 
 const App = () => {
   return (
@@ -26,6 +31,11 @@ const App = () => {
       <Slider />
       <Energy />
       <IphoneComparison />
+      <IphoneTech />
+      <IosSlider />
+      <AppleSlide />
+      <HelpFeatures />
+      <Accessories />
     </main>
   );
 };

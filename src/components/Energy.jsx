@@ -2,7 +2,7 @@ import React from "react";
 
 const Energy = () => {
   return (
-    <section className="md:min-h-screen max-w-full mt-16">
+    <section className="md:min-h-[70vh] max-w-full mt-16">
       <h3 className="text-center font-semibold  text-2xl">
         A19 chip. All‑day battery life.
       </h3>
