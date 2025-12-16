@@ -5,7 +5,6 @@ A stunning, interactive clone of the iPhone 17 landing page featuring immersive 
 ![iPhone 17 Landing Page](https://img.shields.io/badge/React-18+-blue.svg)
 ![Vite](https://img.shields.io/badge/Vite-5+-purple.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3+-cyan.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 📸 Screenshots
 
@@ -144,38 +143,14 @@ iphone17/
 - **Gallery Slider** - Beautiful image carousel using Swiper
 - **Video Section** - Embedded product videos with custom controls
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Aditya Kumar**
 
 - GitHub: [@Adityamkumar](https://github.com/Adityamkumar)
-- Portfolio: [https://your-portfolio-link.com](https://your-portfolio-link.com)
-- LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+- Portfolio: [https://your-portfolio-link.com](https://adityakumar6383.netlify.app/)
 
-## 🙏 Acknowledgments
-
-- Apple for the design inspiration
-- The React and Three.js communities for excellent documentation
-- All contributors who have helped improve this project
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on the GitHub repository.
 
 ---
 
