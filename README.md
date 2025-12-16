@@ -7,6 +7,14 @@ A stunning, interactive clone of the iPhone 17 landing page featuring immersive 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3+-cyan.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+## 📸 Screenshots
+
+### Desktop View
+![iPhone 17 Desktop View](./screenshots/desktop-view.png)
+
+### Mobile View
+![iPhone 17 Mobile View](./screenshots/mobile-view.png)
+
 ## ✨ Features
 
 - **🎨 Interactive 3D Models** - Realistic iPhone 17 3D models powered by Three.js and react-three-fiber
@@ -136,6 +144,19 @@ iphone17/
 - **Gallery Slider** - Beautiful image carousel using Swiper
 - **Video Section** - Embedded product videos with custom controls
 
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
@@ -143,5 +164,19 @@ iphone17/
 
 - GitHub: [@Adityamkumar](https://github.com/Adityamkumar)
 - Portfolio: [https://your-portfolio-link.com](https://your-portfolio-link.com)
+- LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+
+## 🙏 Acknowledgments
+
+- Apple for the design inspiration
+- The React and Three.js communities for excellent documentation
+- All contributors who have helped improve this project
+
+## 📧 Contact
+
+For questions or feedback, please open an issue on the GitHub repository.
+
+---
 
 ⭐ If you find this project helpful, please consider giving it a star on GitHub!
