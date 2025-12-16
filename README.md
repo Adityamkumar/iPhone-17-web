@@ -1,16 +1,147 @@
-# React + Vite
+# 📱 iPhone 17 Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning, interactive clone of the iPhone 17 landing page featuring immersive 3D models, smooth animations, and a fully responsive design. Built with modern web technologies including React, Three.js, and GSAP.
 
-Currently, two official plugins are available:
+![iPhone 17 Landing Page](https://img.shields.io/badge/React-18+-blue.svg)
+![Vite](https://img.shields.io/badge/Vite-5+-purple.svg)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3+-cyan.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **🎨 Interactive 3D Models** - Realistic iPhone 17 3D models powered by Three.js and react-three-fiber
+- **✨ Smooth Animations** - Fluid transitions and scroll-based animations using GSAP
+- **📱 Fully Responsive** - Optimized experience across desktop, tablet, and mobile devices
+- **🎬 Dynamic Sliders** - Beautiful image and content carousels with Swiper
+- **⚡ Lightning Fast** - Built with Vite for optimal performance and instant hot module replacement
+- **🎯 Modern UI/UX** - Clean, Apple-inspired design using Tailwind CSS utilities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher)
+- [npm](https://www.npmjs.com/) (v9.0.0 or higher) or [yarn](https://yarnpkg.com/) (v1.22.0 or higher)
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Adityamkumar/iphone17.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd iphone17
+   ```
+
+3. **Install dependencies**
+
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+   Or using yarn:
+   ```bash
+   yarn install
+   ```
+
+### Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Building for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+The built files will be generated in the `dist` directory.
+
+### Preview Production Build
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🛠️ Technologies Used
+
+### Core
+
+- **[React](https://react.dev/)** - Modern JavaScript library for building user interfaces
+- **[Vite](https://vitejs.dev/)** - Next-generation frontend build tool
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+
+### 3D & Animation
+
+- **[react-three-fiber](https://docs.pmnd.rs/react-three-fiber/)** - React renderer for Three.js
+- **[Three.js](https://threejs.org/)** - JavaScript 3D library
+- **[GSAP](https://greensock.com/gsap/)** - Professional-grade animation library
+
+### UI Components
+
+- **[Swiper](https://swiperjs.com/)** - Modern mobile touch slider
+
+### Code Quality
+
+- **[ESLint](https://eslint.org/)** - Static code analysis tool
+
+## 📁 Project Structure
+
+```
+iphone17/
+├── public/
+│   ├── img/                 # Image assets
+│   └── model/               # 3D model files
+│       └── video/           # Video assets
+├── src/
+│   ├── components/          # React components
+│   │   ├── models/          # 3D model components
+│   │   └── three/           # Three.js related components
+│   ├── constant/            # Constants and configuration
+│   ├── App.jsx              # Main application component
+│   ├── index.css            # Global styles
+│   ├── main.jsx             # Application entry point
+│   └── style.css            # Additional styles
+├── .gitignore               # Git ignore rules
+├── eslint.config.js         # ESLint configuration
+├── index.html               # HTML entry point
+├── package.json             # Project dependencies
+├── postcss.config.js        # PostCSS configuration
+├── README.md                # Project documentation
+├── tailwind.config.js       # Tailwind CSS configuration
+└── vite.config.js           # Vite configuration
+```
+
+## 🎯 Key Components
+
+- **3D Model Viewer** - Interactive iPhone 3D model with rotation and zoom
+- **Hero Section** - Eye-catching hero with animated text and visuals
+- **Feature Showcase** - Highlight key iPhone features with animations
+- **Gallery Slider** - Beautiful image carousel using Swiper
+- **Video Section** - Embedded product videos with custom controls
+
+
+## 👨‍💻 Author
+
+**Aditya Kumar**
+
+- GitHub: [@Adityamkumar](https://github.com/Adityamkumar)
+- Portfolio: [https://your-portfolio-link.com](https://your-portfolio-link.com)
+
+⭐ If you find this project helpful, please consider giving it a star on GitHub!
