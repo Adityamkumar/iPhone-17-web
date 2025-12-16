@@ -149,7 +149,7 @@ iphone17/
 **Aditya Kumar**
 
 - GitHub: [@Adityamkumar](https://github.com/Adityamkumar)
-- Portfolio: [https://your-portfolio-link.com](https://adityakumar6383.netlify.app/)
+- Portfolio: [https://adityakumar6383.netlify.app/]
 
 
 ---
