@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   preview: {
     host: true,
-    allowedHosts: ["iphone-17-co.onrender.com"],
+    allowedHosts: "all",
   },
 })
